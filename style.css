@@ -1,0 +1,135 @@
+/* Colors and fonts*/
+body {
+	background-color: #F7EEDD;
+	color: #78A083;
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+	line-height: 1.0;
+	letter-spacing: 0px;
+	font-weight: 100;
+}
+h1, h2, h3 {
+	font-family: "Playfair Display", serif;
+	color: #50727B;
+	margin: ;
+}
+a {
+	text-decoration: none;
+	color: #401F71;
+	font-weight: 100;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: #7469B6;
+}
+
+
+
+#container {
+	width: 700px;
+	margin: 10px auto;
+}
+
+@media (max-width: 760px) {
+	#container {
+		width: 600px;
+		
+	}
+}
+@media (max-width: 500px) {
+	#container {
+		width: 400px;
+	}
+}
+.card-div{
+    background: white;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    text-align: center;
+}
+#profile-img {
+	width: 70px;
+	height: auto;
+	border-radius: 50%;
+	position: relative;
+}
+#img-circle{
+	width: 40;
+	height: 40;
+	border-radius: 50%;
+	
+}
+.container-link {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.btn-color {
+	background-color: #E1C78F;
+	color: #5F6F52;
+	padding: 6px 7px;
+	border-radius: 10px;
+	text-align: center;
+}
+.btn-color:hover {
+	background-color: #FAE7C9;
+	transition: color 0,3s ease;
+	color: #5F6F52;
+}
+#card-hobbies{
+	 background: white;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    border-radius: 10px;
+}
+#card-hobbies h2 {
+	text-align: center;
+}
+
+
+.list-horizontal-inline { /*entfernt die standard punkt bei den list items und entfernt padding*/
+	list-style: none;
+	padding-left: 0px;
+}
+.list-horizontal-inline li { /* jedes list item wird horizontal angeordnet*/ 
+	display: inline-block;
+	padding: 3px;
+	margin-right:40px;
+}
+.list-horizontal-inline li:last-child { /*richtet sich an letztes list-item->kein rechter seitenabstand*/
+	margin-right: 0px;
+}
+.list-horizontal-inline i { /* jedes image in der list. legt größe + farbe fest*/
+	font-size: 50px;
+	color: rgb(180, 180, 180, 1.0);
+}
+.list-horizontal-inline i:hover {
+	color: rgb(50, 50, 50, 1.0);
+}
+.forms-grey{
+	color: #EADFB4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
